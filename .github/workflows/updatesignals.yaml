@@ -1,0 +1,43 @@
+name: "Update signals.json"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 0' # every sunday
+
+jobs:
+  update-signals:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repository
+        id: checkout-repository
+        uses: actions/checkout@v5
+
+
+      - name: Get Telemetry IDs and update signals.json
+        id: update-signals
+        shell: pwsh
+        run: |
+          ./src/Get-BCTelemetryEventIds.ps1
+
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v7
+        with:
+            commit-message: Update signals
+            committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+            author: ${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>
+            branch: signal-update
+            delete-branch: true
+            branch-suffix: timestamp
+            title: 'Update signals'
+            body: |
+                Update signals.json with latest telemetry event IDs.
+            labels: |
+                signal-update
+            assignees: frottke
+            reviewers: frottke

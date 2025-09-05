@@ -1,0 +1,4 @@
+{
+    "MainUrl": "https://raw.githubusercontent.com/MicrosoftDocs/dynamics365smb-devitpro-pb/refs/heads/main/dev-itpro/administration/telemetry-event-ids.md",
+    "OutJson": ".\\signals.json"
+}
