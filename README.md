@@ -1,5 +1,3 @@
-# private-bc-telemetry-event-ids
-
 ## Overview
 
 This repository provides a PowerShell script that automates the extraction and structuring of telemetry event IDs from the official Microsoft documentation, located in the [`dynamics365smb-devitpro-pb`](https://github.com/MicrosoftDocs/dynamics365smb-devitpro-pb) repository.
