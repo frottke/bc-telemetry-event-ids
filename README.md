@@ -30,7 +30,7 @@ The script performs the following steps:
 ## Usage
 
 You can directly reference the generated JSON file in your KQL queries from this URL:
-[https://raw.githubusercontent.com/frottke/private-bc-telemetry-event-ids/refs/heads/main/signals.json](https://raw.githubusercontent.com/frottke/private-bc-telemetry-event-ids/refs/heads/main/signals.json)
+[https://raw.githubusercontent.com/frottke/bc-telemetry-event-ids/refs/heads/main/signals.json](https://raw.githubusercontent.com/frottke/bc-telemetry-event-ids/refs/heads/main/signals.json)
 
 ## Acknowledgements
 
