@@ -4,7 +4,7 @@
 	"name": "PowerShell",
 	"image": "mcr.microsoft.com/devcontainers/base:jammy",
 	"features": {
-		"ghcr.io/devcontainers/features/powershell:1": {
+		"ghcr.io/devcontainers/features/powershell:2": {
 			"version": "latest",
 			"modules": "Pester"
 		},
