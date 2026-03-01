@@ -601,58 +601,58 @@
   },
   {
     "eventId": "LC0028",
-    "eventArea": "AppSource Submission",
-    "eventDescription": "AppSource submission validation request started: {validationRequestId}"
+    "eventArea": "Marketplace Submission",
+    "eventDescription": "Marketplace submission validation request started: {validationRequestId}"
   },
   {
     "eventId": "LC0029",
-    "eventArea": "AppSource Submission",
-    "eventDescription": "AppSource submission validation request completed successfully: {validationRequestId}"
+    "eventArea": "Marketplace Submission",
+    "eventDescription": "Marketplace submission validation request completed successfully: {validationRequestId}"
   },
   {
     "eventId": "LC0030",
-    "eventArea": "AppSource Submission",
+    "eventArea": "Marketplace Submission",
     "eventDescription": "(Version, country-region) validation started: version {version}, country/region {countryRegion}"
   },
   {
     "eventId": "LC0031",
-    "eventArea": "AppSource Submission",
+    "eventArea": "Marketplace Submission",
     "eventDescription": "(Version, country-region) validation completed successfully: version {version}, country/region {countryRegion}"
   },
   {
     "eventId": "LC0032",
-    "eventArea": "AppSource Submission",
+    "eventArea": "Marketplace Submission",
     "eventDescription": "Extension validation started: version {version}, country/region {countryRegion} for extension {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
   },
   {
     "eventId": "LC0033",
-    "eventArea": "AppSource Submission",
+    "eventArea": "Marketplace Submission",
     "eventDescription": "Extension validation completed successfully: version {version}, country/region {countryRegion} for extension {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
   },
   {
     "eventId": "LC0034",
-    "eventArea": "AppSource Submission",
+    "eventArea": "Marketplace Submission",
     "eventDescription": "Validation diagnostic reported: version {version}, country/region {countryRegion} for extension {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
   },
   {
     "eventId": "LC0035",
-    "eventArea": "AppSource Submission",
-    "eventDescription": "AppSource submission validation request completed with failures: {validationRequestId}"
+    "eventArea": "Marketplace Submission",
+    "eventDescription": "Marketplace submission validation request completed with failures: {validationRequestId}"
   },
   {
     "eventId": "LC0036",
-    "eventArea": "AppSource Submission",
+    "eventArea": "Marketplace Submission",
     "eventDescription": "(Version, country-region) validation completed with failures: version {version}, country-region {countryRegion}"
   },
   {
     "eventId": "LC0037",
-    "eventArea": "AppSource Submission",
+    "eventArea": "Marketplace Submission",
     "eventDescription": "Extension validation completed with failures: version {version}, country-region {countryRegion} for extension {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
   },
   {
     "eventId": "LC0038",
-    "eventArea": "AppSource Submission",
-    "eventDescription": "Diagnostic reported on AppSource submission validation request: {validationRequestId}"
+    "eventArea": "Marketplace Submission",
+    "eventDescription": "Diagnostic reported on Marketplace submission validation request: {validationRequestId}"
   },
   {
     "eventId": "LC0040",
