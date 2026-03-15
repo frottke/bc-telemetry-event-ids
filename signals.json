@@ -1165,6 +1165,11 @@
     "eventDescription": "PTE validation started: request {submissionId}"
   },
   {
+    "eventId": "LC0201",
+    "eventArea": "Per-tenant extension",
+    "eventDescription": "Diagnostic reported on PTE submission validation request: {submissionId}"
+  },
+  {
     "eventId": "LC0202",
     "eventArea": "Per-tenant extension",
     "eventDescription": "PTE submission validation request completed successfully: request {submission id}"
@@ -1190,6 +1195,21 @@
     "eventDescription": "Extension validation completed with failures: extension {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
   },
   {
+    "eventId": "LC0207",
+    "eventArea": "Per-tenant extension",
+    "eventDescription": "Dependent extension validation started: extension {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
+  },
+  {
+    "eventId": "LC0208",
+    "eventArea": "Per-tenant extension",
+    "eventDescription": "Dependent extension validation completed successfully: extension {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
+  },
+  {
+    "eventId": "LC0209",
+    "eventArea": "Per-tenant extension",
+    "eventDescription": "Dependent extension validation completed with failures: extension {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
+  },
+  {
     "eventId": "LC0210",
     "eventArea": "Per-tenant extension",
     "eventDescription": "Validation diagnostic reported: extension {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
@@ -1198,6 +1218,11 @@
     "eventId": "LC0220",
     "eventArea": "Environment validation",
     "eventDescription": "Environment validation started: environment {environmentName} target build version {targetVersion}"
+  },
+  {
+    "eventId": "LC0221",
+    "eventArea": "Environment validation",
+    "eventDescription": "Diagnostic reported on validation of environment {environmentId} for target build version {targetVersion}"
   },
   {
     "eventId": "LC0222",
@@ -1228,6 +1253,46 @@
     "eventId": "LC0227",
     "eventArea": "Environment validation",
     "eventDescription": "Validation diagnostic reported: extension {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
+  },
+  {
+    "eventId": "LC0230",
+    "eventArea": "Marketplace app breaking changes validation",
+    "eventDescription": "Marketplace app breaking changes validation started: extension {extensionInfo} for countries/regions {countryCodeList}, and target build version {targetVersion}"
+  },
+  {
+    "eventId": "LC0231",
+    "eventArea": "Marketplace app breaking changes validation",
+    "eventDescription": "Diagnostic reported on validation of extension {extensionInfo} and target build version {targetVersion}"
+  },
+  {
+    "eventId": "LC0232",
+    "eventArea": "Marketplace app breaking changes validation",
+    "eventDescription": "Marketplace app breaking changes validation completed successfully: extension {extensionInfo}, country {countryCodeList}, and target build version {targetVersion}"
+  },
+  {
+    "eventId": "LC0233",
+    "eventArea": "Marketplace app breaking changes validation",
+    "eventDescription": "Marketplace app breaking changes validation completed with failures: extension {extensionInfo} and target build version {targetVersion}"
+  },
+  {
+    "eventId": "LC0234",
+    "eventArea": "Marketplace app breaking changes validation",
+    "eventDescription": "Extension validation started: extension {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
+  },
+  {
+    "eventId": "LC0235",
+    "eventArea": "Marketplace app breaking changes validation",
+    "eventDescription": "Extension validation completed successfully: extension {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
+  },
+  {
+    "eventId": "LC0236",
+    "eventArea": "Marketplace app breaking changes validation",
+    "eventDescription": "Validation diagnostic reported: extension {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId}) for country {countryRegion}"
+  },
+  {
+    "eventId": "LC0237",
+    "eventArea": "Marketplace app breaking changes validation",
+    "eventDescription": "Extension validation completed with failures: extension {extensionName} version {extensionVersion} by {extensionPublisher} ({extensionId})"
   },
   {
     "eventId": "RT0001",
