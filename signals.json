@@ -445,6 +445,26 @@
     "eventDescription": "Financial report definition imported: {Report Definition Code}"
   },
   {
+    "eventId": "AL0000QE9",
+    "eventArea": "MCP configuration",
+    "eventDescription": "MCP Configuration modified"
+  },
+  {
+    "eventId": "AL0000QEB",
+    "eventArea": "MCP configuration",
+    "eventDescription": "MCP Configuration deleted"
+  },
+  {
+    "eventId": "AL0000R0Q",
+    "eventArea": "MCP configuration",
+    "eventDescription": "MCP Configuration created"
+  },
+  {
+    "eventId": "AL0000R0R",
+    "eventArea": "MCP configuration",
+    "eventDescription": "MCP default configuration designated"
+  },
+  {
     "eventId": "CL0001",
     "eventArea": "Page views",
     "eventDescription": "Page opened: {alObjectName}"
@@ -1483,6 +1503,11 @@
     "eventId": "RT0053",
     "eventArea": "Incoming Web service requests",
     "eventDescription": "Deprecated endpoint called: {endpoint}"
+  },
+  {
+    "eventId": "RT0054",
+    "eventArea": "MCP Server",
+    "eventDescription": "MCP Server tool called: '{toolName}'"
   },
   {
     "eventId": "RT0055",
