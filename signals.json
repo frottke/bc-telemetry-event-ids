@@ -770,6 +770,56 @@
     "eventDescription": "Permission set changed by an extension"
   },
   {
+    "eventId": "LC0059",
+    "eventArea": "AI Consumption",
+    "eventDescription": "Metadata embedding generation succeeded for extension {extensionId} version {extensionVersion}"
+  },
+  {
+    "eventId": "LC0060",
+    "eventArea": "AI Consumption",
+    "eventDescription": "Metadata embedding generation failed for extension {extensionId} version {extensionVersion}"
+  },
+  {
+    "eventId": "LC0061",
+    "eventArea": "AI Consumption",
+    "eventDescription": "Metadata embedding generation scheduled for extension {extensionId} version {extensionVersion}"
+  },
+  {
+    "eventId": "LC0062",
+    "eventArea": "AI Consumption",
+    "eventDescription": "Metadata embedding generation started for extension {extensionId} version {extensionVersion}"
+  },
+  {
+    "eventId": "LC0063",
+    "eventArea": "Table Index Lifecycle",
+    "eventDescription": "Index enabled at runtime: {keyName}"
+  },
+  {
+    "eventId": "LC0064",
+    "eventArea": "Table Index Lifecycle",
+    "eventDescription": "Index disabled at runtime: {keyName}"
+  },
+  {
+    "eventId": "LC0065",
+    "eventArea": "Table Index Lifecycle",
+    "eventDescription": "Sync table column count exceeded: {tableName}"
+  },
+  {
+    "eventId": "LC0066",
+    "eventArea": "Agent Lifecycle",
+    "eventDescription": "Agent configuration changed: {agentDisplayName}"
+  },
+  {
+    "eventId": "LC0067",
+    "eventArea": "Agent Lifecycle",
+    "eventDescription": "Agent created: {agentDisplayName}"
+  },
+  {
+    "eventId": "LC0068",
+    "eventArea": "Agent Lifecycle",
+    "eventDescription": "Agent task created: {taskId}"
+  },
+  {
     "eventId": "LC0100",
     "eventArea": "Environment",
     "eventDescription": "Environment update available for scheduling: {environmentName} to version {destinationVersion}."
@@ -1335,6 +1385,11 @@
     "eventDescription": "Authorization Succeeded (Open Company)"
   },
   {
+    "eventId": "RT00049",
+    "eventArea": "Web service publishing",
+    "eventDescription": "Web service metadata circular API pages"
+  },
+  {
     "eventId": "RT0005",
     "eventArea": "Performance",
     "eventDescription": "Operation exceeded time threshold (SQL query)"
@@ -1358,6 +1413,11 @@
     "eventId": "RT0008",
     "eventArea": "Incoming Web service requests",
     "eventDescription": "Web service called ({category of request}): {endpoint}"
+  },
+  {
+    "eventId": "RT0009",
+    "eventArea": "Performance",
+    "eventDescription": "Executed a SQL statement"
   },
   {
     "eventId": "RT0010",
@@ -1420,6 +1480,11 @@
     "eventDescription": "Authentication with Web Service Key failed: {endpoint}"
   },
   {
+    "eventId": "RT0022",
+    "eventArea": "Security",
+    "eventDescription": "App secret initialization failed"
+  },
+  {
     "eventId": "RT0023",
     "eventArea": "Troubleshooting",
     "eventDescription": "Verbose telemetry enabled for session: {sessionId}"
@@ -1438,6 +1503,11 @@
     "eventId": "RT0026",
     "eventArea": "Performance",
     "eventDescription": "Database wait statistics snapshot entry: {databaseWaitStatisticsCategory}"
+  },
+  {
+    "eventId": "RT0027",
+    "eventArea": "Performance",
+    "eventDescription": "Database locks snapshot: {snapshotId}"
   },
   {
     "eventId": "RT0028",
@@ -1495,6 +1565,61 @@
     "eventDescription": "Web service metadata error: The record with name '{entityName}' was skipped."
   },
   {
+    "eventId": "RT0040",
+    "eventArea": "Business events",
+    "eventDescription": "Business event subscription created"
+  },
+  {
+    "eventId": "RT0041",
+    "eventArea": "Business events",
+    "eventDescription": "Business event subscription deleted"
+  },
+  {
+    "eventId": "RT0042",
+    "eventArea": "Business events",
+    "eventDescription": "Business event subscription modified"
+  },
+  {
+    "eventId": "RT0043",
+    "eventArea": "Business events",
+    "eventDescription": "Business event subscription enabled"
+  },
+  {
+    "eventId": "RT0044",
+    "eventArea": "Business events",
+    "eventDescription": "Business event subscription disabled"
+  },
+  {
+    "eventId": "RT0045",
+    "eventArea": "Business events",
+    "eventDescription": "Business event triggered successfully"
+  },
+  {
+    "eventId": "RT0046",
+    "eventArea": "Business events",
+    "eventDescription": "Business event trigger failed"
+  },
+  {
+    "eventId": "RT0047",
+    "eventArea": "Business events",
+    "eventDescription": "Business event notification sending failed"
+  },
+  {
+    "eventId": "RT0048",
+    "eventArea": "Web service publishing",
+    "eventDescription": "Web service conflicting API path"
+  },
+  {
+    "eventId": "RT0050",
+    "eventArea": "Web service publishing",
+    "eventDescription": "Web service metadata invalid root entity"
+  },
+  {
+    "eventId": "RT0051",
+    "eventArea": "Web service publishing",
+    "eventDescription": "Web service metadata conflicting navigation property"
+  },
+  {
     "eventId": "RT0052",
     "eventArea": "Outgoing Web service requests",
     "eventDescription": "HTTP server certificate validation failed when calling endpoint: {endpoint}"
@@ -1513,5 +1638,10 @@
     "eventId": "RT0055",
     "eventArea": "AI Consumption",
     "eventDescription": "AI consumption recorded"
+  },
+  {
+    "eventId": "RT0056",
+    "eventArea": "Open in Excel",
+    "eventDescription": "Open in Excel: {pageName}"
   }
 ]
