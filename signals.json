@@ -771,22 +771,22 @@
   },
   {
     "eventId": "LC0059",
-    "eventArea": "AI Consumption",
+    "eventArea": "Metadata Embeddings",
     "eventDescription": "Metadata embedding generation succeeded for extension {extensionId} version {extensionVersion}"
   },
   {
     "eventId": "LC0060",
-    "eventArea": "AI Consumption",
+    "eventArea": "Metadata Embeddings",
     "eventDescription": "Metadata embedding generation failed for extension {extensionId} version {extensionVersion}"
   },
   {
     "eventId": "LC0061",
-    "eventArea": "AI Consumption",
+    "eventArea": "Metadata Embeddings",
     "eventDescription": "Metadata embedding generation scheduled for extension {extensionId} version {extensionVersion}"
   },
   {
     "eventId": "LC0062",
-    "eventArea": "AI Consumption",
+    "eventArea": "Metadata Embeddings",
     "eventDescription": "Metadata embedding generation started for extension {extensionId} version {extensionVersion}"
   },
   {
