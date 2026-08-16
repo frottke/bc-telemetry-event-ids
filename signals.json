@@ -155,6 +155,16 @@
     "eventDescription": "User checklist status updated: {oldStatus} to {newStatus}"
   },
   {
+    "eventId": "AL0000EIR",
+    "eventArea": "User Checklist Lifecycle",
+    "eventDescription": "Checklist item status updated with guided experience item: {oldStatus} to {newStatus}"
+  },
+  {
+    "eventId": "AL0000EIT",
+    "eventArea": "User Checklist Lifecycle",
+    "eventDescription": "Checklist item status updated: {oldStatus} to {newStatus}"
+  },
+  {
     "eventId": "AL0000EIV",
     "eventArea": "Onboarding",
     "eventDescription": "Onboarding criteria completed: {Criteria}"
@@ -1555,6 +1565,11 @@
     "eventDescription": "Web service metadata error: Table field name error, the page contaning the field with caption '{metaFieldCaption}' was skipped."
   },
   {
+    "eventId": "RT0037",
+    "eventArea": "Web service publishing",
+    "eventDescription": "Web service metadata invalid page"
+  },
+  {
     "eventId": "RT0038",
     "eventArea": "Web service publishing",
     "eventDescription": "Web service metadata warning: Multiple options while generation navigation property for tablerelation."
@@ -1638,10 +1653,5 @@
     "eventId": "RT0055",
     "eventArea": "AI Consumption",
     "eventDescription": "AI consumption recorded"
-  },
-  {
-    "eventId": "RT0056",
-    "eventArea": "Open in Excel",
-    "eventDescription": "Open in Excel: {pageName}"
   }
 ]
