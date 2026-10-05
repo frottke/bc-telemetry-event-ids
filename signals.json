@@ -117,37 +117,37 @@
   {
     "eventId": "AL0000E3F",
     "eventArea": "Configuration Package",
-    "eventDescription": "Configuration package export started: {alPackageCode}"
+    "eventDescription": "Configuration package export started: {packageSystemId}"
   },
   {
     "eventId": "AL0000E3G",
     "eventArea": "Configuration Package",
-    "eventDescription": "Configuration package exported successfully: {alPackageCode}"
+    "eventDescription": "Configuration package exported successfully: {packageSystemId}"
   },
   {
     "eventId": "AL0000E3H",
     "eventArea": "Configuration Package",
-    "eventDescription": "Configuration package import started: {alPackageCode}"
+    "eventDescription": "Configuration package import started: {packageSystemId}"
   },
   {
     "eventId": "AL0000E3I",
     "eventArea": "Configuration Package",
-    "eventDescription": "Configuration package imported successfully: {alPackageCode}"
+    "eventDescription": "Configuration package imported successfully: {packageSystemId}"
   },
   {
     "eventId": "AL0000E3N",
     "eventArea": "Configuration Package",
-    "eventDescription": "Configuration package apply started: {alPackageCode}"
+    "eventDescription": "Configuration package apply started: {packageSystemId}"
   },
   {
     "eventId": "AL0000E3O",
     "eventArea": "Configuration Package",
-    "eventDescription": "Configuration package applied successfully: {alPackageCode}"
+    "eventDescription": "Configuration package applied successfully: {packageSystemId}"
   },
   {
     "eventId": "AL0000E3P",
     "eventArea": "Configuration Package",
-    "eventDescription": "Configuration package deleted successfully: {alPackageCode}"
+    "eventDescription": "Configuration package deleted successfully: {packageSystemId}"
   },
   {
     "eventId": "AL0000EIQ",
@@ -213,11 +213,6 @@
     "eventId": "AL0000FXC",
     "eventArea": "Cloud migration",
     "eventDescription": "Companion table repair scheduled"
-  },
-  {
-    "eventId": "AL0000G7J",
-    "eventArea": "Feature Lifecycle",
-    "eventDescription": "More than one telemetry logger has been registered for publisher {publisher}"
   },
   {
     "eventId": "AL0000G7K",
@@ -811,8 +806,8 @@
   },
   {
     "eventId": "LC0065",
-    "eventArea": "Table Index Lifecycle",
-    "eventDescription": "Sync table column count exceeded: {tableName}"
+    "eventArea": "Database schema",
+    "eventDescription": "Column count exceeded recommended limit for {alObjectType} '{alObjectName}'"
   },
   {
     "eventId": "LC0066",
@@ -1653,5 +1648,10 @@
     "eventId": "RT0055",
     "eventArea": "AI Consumption",
     "eventDescription": "AI consumption recorded"
+  },
+  {
+    "eventId": "RT0056",
+    "eventArea": "Open in Excel",
+    "eventDescription": "Open in Excel: {pageName}"
   }
 ]
