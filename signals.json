@@ -1,5 +1,10 @@
 [
   {
+    "eventId": "AL000082C",
+    "eventArea": "Job Queue Lifecycle",
+    "eventDescription": "JobID = {alJobQueueId}, ObjectType = {alJobQueueObjectType}, ObjectID = {alJobQueueObjectId}, Status = Finished, Result = Success, Company = {alJobQueueCompanyName}, Scheduled Task Id = {alJobQueueScheduledTaskId}"
+  },
+  {
     "eventId": "AL0000CTE",
     "eventArea": "Field monitoring",
     "eventDescription": "Sensitive field value has changed: {alfieldCaption} ({alFieldNumber}) in table {altableCaption} ({alTableNumber})"
@@ -42,22 +47,22 @@
   {
     "eventId": "AL0000DGF",
     "eventArea": "Performance Toolkit",
-    "eventDescription": "Performance Toolkit - {BCPT Header code} - {BCPT Scenario code} - {BCPT Line status}"
+    "eventDescription": "Performance Toolkit - {BCPT Header code} - {Scenario label} - {BCPT log entry status}"
   },
   {
     "eventId": "AL0000DHR",
     "eventArea": "Performance Toolkit",
-    "eventDescription": "Performance Toolkit run started"
+    "eventDescription": "Performance Toolkit run started."
   },
   {
     "eventId": "AL0000DHS",
     "eventArea": "Performance Toolkit",
-    "eventDescription": "Performance Toolkit run finished"
+    "eventDescription": "Performance Toolkit run finished."
   },
   {
     "eventId": "AL0000DHT",
     "eventArea": "Performance Toolkit",
-    "eventDescription": "Performance Toolkit run cancelled"
+    "eventDescription": "Performance Toolkit run cancelled."
   },
   {
     "eventId": "AL0000E24",
@@ -167,12 +172,12 @@
   {
     "eventId": "AL0000EIV",
     "eventArea": "Onboarding",
-    "eventDescription": "Onboarding criteria completed: {Criteria}"
+    "eventDescription": "Onboarding Signal Completed: {signal type}"
   },
   {
     "eventId": "AL0000EIW",
     "eventArea": "Onboarding",
-    "eventDescription": "Onboarding Started"
+    "eventDescription": "Onboarding Signal Started: {signal type}"
   },
   {
     "eventId": "AL0000EJ9",
@@ -245,14 +250,9 @@
     "eventDescription": "Job queue entry rescheduled on login: {alJobQueueId}"
   },
   {
-    "eventId": "AL0000I49",
-    "eventArea": "Job Queue Lifecycle",
-    "eventDescription": "Job queue entry rescheduled on login: {job queue entry id}"
-  },
-  {
     "eventId": "AL0000I74",
     "eventArea": "Azure Function Integration",
-    "eventDescription": "Request sent to Azure function succeeded: {Function Host}"
+    "eventDescription": "Request sent to Azure function succeeded"
   },
   {
     "eventId": "AL0000I75",
@@ -477,12 +477,12 @@
   {
     "eventId": "CL0002",
     "eventArea": "Error message quality",
-    "eventDescription": "[User gave feedback on error message: [OK"
+    "eventDescription": "[User gave feedback on error message: [OK\\"
   },
   {
     "eventId": "CL0003",
     "eventArea": "Client action",
-    "eventDescription": "Client action invoked: {Action}"
+    "eventDescription": "Client action invoked:{Action}"
   },
   {
     "eventId": "CL0005",
@@ -1442,7 +1442,7 @@
   {
     "eventId": "RT0013",
     "eventArea": "Performance",
-    "eventDescription": "Database lock snapshot: {snapshotId}"
+    "eventDescription": "Database lock snapshot entry: {snapshotId}"
   },
   {
     "eventId": "RT0014",
@@ -1512,7 +1512,7 @@
   {
     "eventId": "RT0027",
     "eventArea": "Performance",
-    "eventDescription": "Database locks snapshot: {snapshotId}"
+    "eventDescription": "Database locks snapshot taken: {snapshotId}"
   },
   {
     "eventId": "RT0028",
@@ -1522,12 +1522,12 @@
   {
     "eventId": "RT0029",
     "eventArea": "Sessions",
-    "eventDescription": "The StopSession method was invoked on session {failureReason}"
+    "eventDescription": "The StopSession method was invoked on session {stoppingSessionID}"
   },
   {
     "eventId": "RT0030",
     "eventArea": "Error method call",
-    "eventDescription": "Error dialog displayed: {errorMessage}"
+    "eventDescription": "Error dialog shown: {failureReason}"
   },
   {
     "eventId": "RT0031",
@@ -1537,7 +1537,7 @@
   {
     "eventId": "RT0032",
     "eventArea": "Permission error",
-    "eventDescription": "Dependency cycle discovered in permission sets"
+    "eventDescription": "Dependency cycle discovered in permission sets."
   },
   {
     "eventId": "RT0033",
@@ -1557,7 +1557,7 @@
   {
     "eventId": "RT0036",
     "eventArea": "Web service publishing",
-    "eventDescription": "Web service metadata error: Table field name error, the page contaning the field with caption '{metaFieldCaption}' was skipped."
+    "eventDescription": "Web service metadata error: Table field name error, the page contaning the field with caption '{metafieldCaption}' was skipped."
   },
   {
     "eventId": "RT0037",
